@@ -1,0 +1,31 @@
+[2026-10-29 17:05:45] === Project Lumia Music — Environment Validator ===
+[2026-10-29 17:05:45] 
+[2026-10-29 17:05:45] --- Checking required tools ---
+[2026-10-29 17:05:46] ✅ PASS: adb found: Android Debug Bridge version 1.0.41
+[2026-10-29 17:05:46] ✅ PASS: fastboot found: fastboot version 37.0.0p1-android-tools
+[2026-10-29 17:05:46] ✅ PASS: lsusb found: lsusb (usbutils) 019
+[2026-10-29 17:05:46] ✅ PASS: python3 found: Python 3.14.8
+[2026-10-29 17:05:46] ✅ PASS: git found: git version 2.56.0
+[2026-10-29 17:05:46] ✅ PASS: curl found: curl 8.23.0 (x86_64-pc-linux-gnu) libcurl/8.23.0 OpenSSL/3.6.4 zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 nghttp2/1.70.0 ngtcp2/1.25.0 nghttp3/1.18.0 mit-krb5/1.22.2
+[2026-10-29 17:05:46] ✅ PASS: wget found: GNU Wget 1.25.0 built on linux-gnu.
+[2026-10-29 17:05:46] ✅ PASS: sha256sum found: sha256sum (GNU coreutils) 9.11
+version unknown
+[2026-10-29 17:05:46] 
+[2026-10-29 17:05:46] --- Checking virtualization (required for WPInternals) ---
+[2026-10-29 17:05:46] ✅ PASS: KVM available (/dev/kvm exists)
+[2026-10-29 17:05:46] ✅ PASS: QEMU installed: QEMU emulator version 11.1.1
+[2026-10-29 17:05:46] ✅ PASS: virt-manager installed
+[2026-10-29 17:05:46] ✅ PASS: libvirtd is active
+[2026-10-29 17:05:46] 
+[2026-10-29 17:05:46] --- Checking disk space ---
+[2026-10-29 17:05:46] ✅ PASS: /home has 354 GiB free (>50 GiB needed for VM + ROMs)
+[2026-10-29 17:05:46] ⚠️  WARN: Root partition has only 953 MiB free — avoid installing packages to /
+[2026-10-29 17:05:46] 
+[2026-10-29 17:05:46] --- Checking for Nokia Lumia USB device ---
+[2026-10-29 17:05:46] ✅ PASS: Nokia Lumia device detected on USB bus
+[2026-10-29 17:05:46]   Product:   iProduct                2 Nokia Lumia 520 (RM-914)
+[2026-10-29 17:05:46] 
+[2026-10-29 17:05:46] ==========================================
+[2026-10-29 17:05:46]   PASS: 14  |  WARN: 1  |  FAIL: 0
+[2026-10-29 17:05:46] ==========================================
+[2026-10-29 17:05:46] ⚠️  Environment is usable but has warnings to address
